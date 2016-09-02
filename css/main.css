@@ -26,9 +26,12 @@ p{
 .lgris{
 	color:#3AC2E9;
 }
-.padd{
-	padding: 8px;
+.paddingimg2{
+	padding: 2% 0%;
+	margin:1%;
+	width: 470px;
 }
+
 .espacio{
 	padding:2px 20px 1px 20px;
 }
@@ -63,4 +66,39 @@ a{
 }
 .moverizq{
 	left: 240%;
+}
+.tamañoslider{
+	width:100%;
+	height: 100%;
+}
+hr{
+	border: 0; 
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray; 
+	width: 100%;
+	margin: 1%;
+
+}
+.paddingic{
+	padding: 5%;
+}
+.paddingics{
+	padding: 1% 9%;
+}
+.border{
+	border: 1px solid gray;
+}
+.tamañoimgg{
+	width: 100%;
+}
+.tamañoimgg1{
+	width: 200px;
+}
+.banner{
+	background-image: url("../images/client-bg.jpg");
+	background-repeat: no-repeat;
+	height: 340px;
+}
+.tamañoimggc{
+	position: relative;
 }

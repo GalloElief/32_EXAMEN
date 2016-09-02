@@ -50,6 +50,9 @@ strong {
 .mg-0{
 	margin: 0;
 }
+.mg-1{
+	margin: 2% auto;
+}
 .w-100{
 	width: 100%;
 }

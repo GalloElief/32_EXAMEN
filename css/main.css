@@ -1,0 +1,112 @@
+/* Inserta tu código aqui */
+
+@media screen and (max-width: 600px){
+	.caja233{
+		background-color: #98F3CA;
+		width: 90px;
+		height: 90px;
+		padding: 8%;
+	}
+	#mastam{
+		font-size: 190%;
+	}
+	.marg{
+		margin: 15px;
+	}
+	a{
+		color:#98F3CA; 
+	}
+	.glyphicon{
+		color:#98F3CA;
+	}
+	.caja23{
+		background-color: #98F3CA;
+		height: 100%;
+	}
+	
+
+}
+@media screen and (min-width : 768px){
+	.modifizq{
+		margin-left: 52%;
+	}
+	#myNavbar{
+		font-size: 85%;
+	}
+@media screen and (min-width : 1200px){
+	#myNavbar{
+		font-size: 120%;
+	}
+}
+
+.lineaH{
+	color: #3AC2E9;
+	size: 30%;
+}
+.lineaH2{
+	color: #3AC2E9;
+	size: 50%;
+}
+
+.caja23{
+	background-color: #3AC2E9;
+	height: 100%;
+}
+.caja233{
+	background-color: #3AC2E9;
+	width: 90px;
+	height: 90px;
+	padding: 8%;
+}
+#mastam{
+	font-size: 190%;
+}
+.cajagris2{
+	background-color: #B8F1F1;
+	width: 275px;
+	height: 210px;
+	margin-top:10px;
+}
+.cajagris3{
+	background-color: #3AC2E9;
+	width: 275px;
+	height: 60px;
+	margin-top:10px;
+}
+p{
+	font-size: 90%;	
+}
+
+.lgris{
+	color:#3AC2E9;
+}
+.padd{
+	padding: 8px;
+}
+.espacio{
+	padding:2px 20px 1px 20px;
+}
+.marg{
+	margin: 10px;
+}
+.sub{
+	text-decoration: underline;
+	color:#44F1A2;
+}
+a{
+	color:#848484;
+}
+.marga{
+	margin-top: 8px;
+
+}
+#lineacol{
+	border: 0; 
+	border-top: 1px solid #3AC2E9;
+	border-bottom: 1px solid #3AC2E9; 
+	height:20%;
+	width: 100%;
+}
+.glyphicon{
+	color:#3AC2E9;
+}

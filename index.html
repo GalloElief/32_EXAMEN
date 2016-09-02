@@ -5,6 +5,8 @@
   	<title>Bootstrap: Grid System</title>
   	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="fonts/font-awesome.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
       <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
       <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
@@ -13,57 +15,81 @@
   </head>
   <body>
     <header><!-- inicia mi página TIMEBEACH-->
-      <div class="container">
-        <div class="row"> 
-          <div class="col-lg-3 col-xs-5 col-sm-5"><!-- inicia mi navegador superior-->
+      <div class="container-fluid nav navbar-default">
+        <div class="row pd-05"> 
+          <div class="col-lg-6 col-xs-5 col-sm-5"><!-- inicia mi navegador superior-->
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">BeachTIME</a><!-- nombre del sitio-->
+              <a class="navbar-brand" href="#">WELCOME</a><!-- nombre del sitio-->
             </div>  
           </div>
-          <div class="col-lg-3 col-xs-3 col-sm-4">
-            <ul class="nav navbar-nav modifizq cambiarp">
-              <li><a href="#"><span class="glyphicon glyphicon-home" ></span>Noticias </a></li> <!-- elemento link con icono-->
+          <div class="col-lg-2 col-xs-3 col-sm-4">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Languajes<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ES</a></li>
+                  <li><a href="#">USD</a></li>
+                  <li><a href="#">JAPONES</a></li>
+                  <li><a href="#">FRANCES</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
           <div class="col-lg-2 col-xs-4 col-sm-3">
-            <ul class="nav navbar-nav">
-              <li><a href="#"><span class="glyphicon glyphicon-home" ></span>Enlaces RSS</a></li> <!-- elemento link con icono-->
+            <ul class="nav nav-pills">
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Currency<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">$$$$$</a></li>
+                  <li><a href="#">$$$</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
-          <div class="col-lg-4"><!-- inicia mi codigo para el buscador-->
+          <div class="col-lg-2 col-xs-4 col-sm-3">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Account<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Mi perfil</a></li>
+                  <li><a href="#">Datos personales</a></li>
+                  <li><a href="#">Configuración</a></li>
+                  <li><a href="#">Cerrar sesión</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </div><!-- finaliza container -->
+      <section class="pt-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-3">
+                <span class="fa-times"></span>
+              </div>
+              <div class="col-lg-9">
+                <h3>OPENING TIME</h3>
+                <p>9:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="images/logo.png">
+          </div>
+          <div class="col-lg-4">
             <form class="navbar-form navbar-left hidden-sm hidden-xs">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
               <button type="submit" class="btn btn-default">Buscar</button>
             </form>
-          </div><!-- termina mi codigo para el buscador-->
-        </div> 
-        <div class="row"> <!-- inicia mi codigo para el segundo navegador que se hara una haburguesa cuando sea XS-->
-          <div class="col-lg-12 letrp">  
-            <nav class="navbar navbar-default">
-              <div class="navbar-header">
-                <button id="bajarlo" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="sr-only">Menu</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav nav-tabs navbar-left">
-                  <li role="presentation" class="active"><a href="#">Bienvenido</a></li><!-- inicia los elementos de mi nagefador nota:active es para que en la pagina se vea cual elemento está seleccinado-->
-                  <li role="presentation"><a href="#">Actualidades</a></li>
-                  <li role="presentation"><a href="#">En directo</a></li>
-                  <li role="presentation"><a href="#">Reporte financiero</a></li>
-                  <li role="presentation"><a href="#">Nuestra oferta</a></li>
-                  <li role="presentation"><a href="#">De nosotros a usted</a></li>
-                </ul> 
-              </div>
-            </nav>
           </div>
-        </div><!-- finaliza ROW -->
-      </div><!-- finaliza container -->
+        </div>
+      </section>
     </header><!-- termina header-->
     <section> <!-- inicia mi primera section-->
       <div class="container">

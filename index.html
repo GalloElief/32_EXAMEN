@@ -69,26 +69,98 @@
           <div class="col-lg-4">
             <div class="row">
               <div class="col-lg-3">
-                <span class="fa-times"></span>
+                <span class="fa-times"></span><!-- icono reloj -->
               </div>
               <div class="col-lg-9">
-                <h3>OPENING TIME</h3>
-                <p>9:00 AM - 10:00 PM</p>
+                <h3>OPENING TIME</h3> <!-- texto junto con el icono-->
+                <p>9:00 AM - 10:00 PM</p><!-- texto junto con el icono-->
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <img src="images/logo.png">
+            <img src="images/logo.png"><!-- imagen accesories-->
           </div>
           <div class="col-lg-4">
             <form class="navbar-form navbar-left hidden-sm hidden-xs">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
               </div>
-              <button type="submit" class="btn btn-default">Buscar</button>
+              <button type="submit" class="btn btn-default">Buscar</button><!-- buscador-->
             </form>
           </div>
         </div>
+      </section>
+      <section>
+      <div class="row "> <!-- inicia mi codigo para el segundo navegador que se hara una haburguesa cuando sea XS-->
+        <div></div>
+          <div class="col-lg-12 letrp">  
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left pd-05 ">
+                  <li role="presentation" class="active colorsalmon "><a href="#">Home</a></li><!-- inicia los elementos de mi navefador nota:active es para que en la pagina se vea cual elemento está seleccinado-->
+                  <li role="presentation"><a href="#">Contac Us</a></li>
+                  <li class="moverizq">
+                    <button type="button" class="btn fondonegro pt-00" data-toggle="modal" data-target="#miventana">
+                      <p>My Cart</p>
+                      <p>2 item(s)- $244.00</p>
+                    </button>
+                    <div id="miventana" class="modal fade" role="dialog"><!-- debe tener el mismo id de mi boton para que tenga relación, indico que es una clase modal fade y que es un role de dialogo-->
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content"><!--contenido de modal-->
+                          <div class="modal-header"><!--cabeza de modal-->
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body"><!--cuerpo del modal-->
+                            <div class="row">
+                              <div class="col-lg-5">
+                                <img src="images/c2.jpg">
+                              </div>
+                              <div class="col-lg-7">
+                                <p>Aliquam Consequat</p>
+                                <p>1 x $500</p>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-lg-5">
+                                <img src="images/b2.jpg">
+                              </div>
+                              <div class="col-lg-7">
+                                <p>Aliquam Consequat</p>
+                                <p>1 x $500</p>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer"><!--pies del modal-->
+                            <div class="row">
+                              <div class="col-lg-4">
+                                <p>Sub-Total</p><!--texto-->
+                                <p>Eco Tax (-2.00)</p><!--texto-->
+                                <p>VAT (20%)</p><!--texto-->
+                              </div>
+                              <div class="col-lg-8">
+                                <p class="colorsalmon">$700</p><!--texto color salmon-->
+                                <p class="colorsalmon">$7.00</p><!--texto color salmon-->
+                                <p class="colorsalmon">$40.00</p><!--texto color salmon-->    
+                              </div>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+            </nav>
+       </div><!-- finaliza ROW -->
       </section>
     </header><!-- termina header-->
     <section> <!-- inicia mi primera section-->

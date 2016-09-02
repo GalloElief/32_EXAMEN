@@ -30,13 +30,16 @@ strong {
 	padding-top: 0%;
 }
 .pt-5{
-	padding-top: 5%;
+	padding: 5%;
 }
 .pt-10{
 	padding-top: 10%;
 }
+.pt-00{
+	padding: 0%;
+}
 .pb-5{
-	padding-bottom: 5%;
+	padding-bottom: 5% ;
 }
 .pl-5{
 	padding-left: 5%;
